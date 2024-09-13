@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        body {
+            background-color: rgb(29, 62, 57);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(35, 87, 79);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav .left {
+            font-size: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 23px;
+            color: white;
+
+
+        }
+
+        nav ul li a:hover {
+            color: #05DEC2;
+            font-size: 1.01rem;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 2rem;
+            line-height: 5vw;
+        }
+        button{
+            padding: 60px 0;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background: rgb(35, 87, 79);
+            color: white;
+            border: 2px solid white;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 7px;
+        }
+
+        .color {
+            color: #05DEC2;
+        }
+
+        #element {
+            color: #05DEC2;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        hr {
+            border: 0;
+            background-color: rgb(156, 244, 215);
+            height: 1.5px;
+            margin: 30px;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            text-align: center;
+            display: flex;
+        }
+
+        .pic {
+            width: 30px;
+            position: relative;
+            top: -4vw;
+            left: -9px;
+
+        }
+
+        .secondSection .workExperienceDetails {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+
+
+        }
+
+        .workTitle {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 20px;
+            margin: 0 -70px;
+
+
+
+        }
+
+        .workDetails {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+            text-align: left;
+            margin: 0 -70px;
+
+        }
+
+        footer {
+            background-color: rgb(27, 49, 46);
+           
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-between;
+        }
+        .footer > div{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .footer .first-footer{
+            width: 30px;
+        }
+        .Sec-footer ul li{
+            list-style: none;
+
+        }
+        .Third-footer ul {
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+         footer .text-center{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+        .fourth-footer ul{
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Maryam's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
+    <section class="firstsection">
+        <div class="leftsection">
+            Hi, My name is <span class="color">Maryam</span>
+            <div>and I am a Passionate</div>
+
+            <span id="element"></span><br>
+           
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</button>
+        </div>
+        <div class="rightsection">
+            <img src="./3190343-removebg-preview.png" alt="Personal Image" width="120%" height="100%">
+        </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+        <span class="gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+            <div class="workExperienceDetails">
+                <img class="pic" src="./developer.png" alt="developer image">
+                <div class="workTitle">
+                    HTML Developer(2023-2025)
+                </div>
+                <div class="workDetails">Started My Career from HTML and I have one year of experience in HTML(Hyper
+                    Text Markup Language) Document.
+                </div>
+            </div>
+            <div class="workExperienceDetails"> <img style="margin-top: -6px;" class="pic" src="./css-logo.png"
+                    alt="developer image">
+                <div class="workTitle">
+                    CSS Developer(2023-2025)
+                </div>
+                <div style="width: 180px;" class="workDetails">Experience with frameworks like Bootstrap, Foundation, or
+                    Tailwind CSS can be valuable for rapid development and maintaining consistency.
+                </div>
+            </div>
+            <div class="workExperienceDetails"> <img class="pic" src="./pngwing.com (1).png" alt="developer image">
+                <div class="workTitle">
+                    JavaScript Developer(2023-2025)
+                </div>
+                <div style="width: 200px;" class="workDetails">A JavaScript developer’s experience typically includes a
+                    strong foundation in core JavaScript concepts like variables, functions, and modern ES6+ features,
+                    along with practical skills in DOM manipulation
+                </div>
+            </div>
+            <div class="workExperienceDetails"> <img class="pic" src="./pngwing.com (2).png" alt="developer image">
+                <div class="workTitle">
+                    Proficient English Speaker
+                </div>
+                <div style="width: 200px;" class="workDetails">A quality English speaker clear and effective
+                    communication skills, including a good command of grammar, vocabulary, and pronunciation.
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <footer >
+        <div class="footer">
+        <div class="first-footer">
+            Maryam's 
+            Developer
+            Portfolio</div>
+        <div class="Sec-footer">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="Third-footer">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="fourth-footer">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+
+        </div>
+       </div> 
+       <div class="text-center">
+           Copyright &#169; maryamportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Best English Speaker', 'Graphic Designer', 'Video Editor', 'Front End Web Developer'],
+            typeSpeed: 50,
+        });
+        var downld = document.querySelector(".btn");
+        downld.addEventListener('onClick',function load() {
+            
+            
+        })
+        
+
+        
+    </script>
+</body>
+
+</html>
